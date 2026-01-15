@@ -7,7 +7,17 @@ const App = () => {
   return (
     <>
       <main>
+        <div className="images">
+          <img id="tomorrowland" src="/tomorrowland.png" alt="load." />
+          <img id="navy-pier" src="/navy-pier.png" alt="" />
+          <img id="msi-chicago" src="/msi-chicago.png" alt="" />
+          <img id="phone" src="/phone.png" alt="" />
+          <img id="kikk" src="/kikk.png" alt="" />
+          <img id="kennedy" src="/kennedy.png" alt="" />
+          <img id="opera" src="/opera.png" alt="" />
+        </div>
         <Canvas
+          id="canvas-elem"
           style={{
             height: "100vh",
             width: "100vw",
@@ -15,9 +25,6 @@ const App = () => {
             left: 0,
             top: 0,
             zIndex: 1,
-            backgroundImage: "url(/background-l.png)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
           }}
         >
           <Dog />
@@ -83,8 +90,79 @@ const App = () => {
           <div className="first-line"></div>
           <div className="second-line"></div>
         </section>
-        <section id="section-2"></section>
-        <section id="section-3"></section>
+
+        <section id="section-2">
+          <div className="titles">
+            <div img-title="tomorrowland" className="title">
+              <small>2020-Today</small>
+              <h1>Tomorrowland</h1>
+            </div>
+            <div img-title="navy-pier" className="title">
+              <small>2018-Today</small>
+              <h1>Navy Pier</h1>
+            </div>
+            <div img-title="msi-chicago" className="title">
+              <small>2022-Today</small>
+              <h1>MSI Chicago</h1>
+            </div>
+            <div img-title="phone" className="title">
+              <small>2014-Today</small>
+              <h1>This Was Louis Phone</h1>
+            </div>
+            <div img-title="kikk" className="title">
+              <small>2018-Today</small>
+              <h1>KIKK Festival 2018</h1>
+            </div>
+            <div img-title="kennedy" className="title">
+              <small>2016-Today</small>
+              <h1>The Kennedy Center</h1>
+            </div>
+
+            <div img-title="opera" className="title">
+              <small>2020-Today</small>
+              <h1>Royal Opera Of Wallonia</h1>
+            </div>
+          </div>
+        </section>
+
+        <section id="section-3">
+          <div className="top">
+            <div className="left">
+              <h3>
+                We're crafting <br />
+                emotional
+                <br />
+                experiences aimed
+                <br />
+                at improving
+                <br />
+                results.
+              </h3>
+            </div>
+            <div className="right"></div>
+          </div>
+        </section>
+        <section className="section-4">
+          <div className="bottom">
+            <div className="left"></div>
+            <div className="right">
+              <p>
+                We are a multidisciplinary creative studio <br />
+                at the intersection of art, design and <br />
+                technology. We craft emotional <br />
+                experiences aimed at improving <br />
+                results. <br />
+              </p>
+              <p>
+                Founded in 2012, Dogstudio has worked <br />
+                with leading brands and agencies <br />
+                worldwide, creating award-winning <br />
+                digital experiences across a variety of <br />
+                platforms and industries.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
