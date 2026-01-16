@@ -185,7 +185,7 @@ main:has(#section-2 .title[img-title="opera"]:hover) .images #opera {
   opacity: 1;
   background-color: rgba(192, 6, 21, 0.856);
 }
-/* #section-3 {
+#section-3 {
   padding-top: 14rem;
   padding-inline: 21rem;
   position: relative;
@@ -231,4 +231,4 @@ main:has(#section-2 .title[img-title="opera"]:hover) .images #opera {
       font-size: 0.9rem;
     }
   }
-} */
+}
