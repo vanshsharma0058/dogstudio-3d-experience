@@ -1,5 +1,11 @@
 ## DogStudio-3D Website
 
+## 🌍 Live Demo
+
+👉 https://dogstudio-3d-experience.vercel.app/
+
+## Overview
+
 -DogStudio is a modern, interactive 3D website built using **React**, **Three.js**, **GSAP**, and **custom shaders**.  
 -The project focuses on smooth scroll-based animations, immersive 3D models, and visually rich effects.
 
