@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -55,24 +56,38 @@ section {
     }
   }
   .middle {
-    display: flex;
-    gap: var(--gap);
-    .left,
-    .right {
-      width: 50%;
-    }
-    .left {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      padding-block: 7rem;
-    }
-    h1 {
-      font-size: 5rem;
-      line-height: 0.8;
-      text-align: right;
-    }
-  }
+  display: flex;
+  gap: var(--gap);
+}
+
+.middle .left,
+.middle .right {
+  width: 50%;
+}
+
+.middle .left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-block: 7rem;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(7rem, 10vw, 10rem);
+  font-weight: 600;
+  line-height: 0.8;
+  letter-spacing: -3px;
+  color: #fff;
+}
+
+.hero-title span {
+  display: block;
+}
   .bottom {
     display: flex;
     gap: var(--gap);
@@ -210,13 +225,13 @@ main:has(#section-2 .title[img-title="opera"]:hover) .images #opera {
     width: 50%;
   }
 }
-#section-4 {
+.section-4 {
   padding-inline: 10rem;
   min-height: 50vh;
   .bottom {
     display: flex;
-    width: 100%;
-    gap: 10rem;
+    justify-content: flex-end;
+    gap: 6rem;
   }
   .left,
   .right {
@@ -226,6 +241,8 @@ main:has(#section-2 .title[img-title="opera"]:hover) .images #opera {
     display: flex;
     gap: 2rem;
     p {
+       max-width:280px;
+    line-height:1.8;
       opacity: 0.5;
       font-weight: 200;
       font-size: 0.9rem;

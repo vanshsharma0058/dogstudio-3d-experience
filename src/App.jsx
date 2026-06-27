@@ -63,14 +63,13 @@ const App = () => {
           </nav>
           <div className="middle">
             <div className="left">
-              <h1>
-                WE
-                <br />
-                MAKE
-                <br />
-                GOOD
-                <br />
-                SHIT
+              <h1 className="hero-title">
+               <span>WE</span> 
+               <span>MAKE</span> 
+               <span>GOOD</span> 
+               <span>SHIT</span> 
+                
+                
               </h1>
             </div>
             <div className="right"></div>
@@ -147,17 +146,15 @@ const App = () => {
             <div className="left"></div>
             <div className="right">
               <p>
-                We are a multidisciplinary creative studio <br />
-                at the intersection of art, design and <br />
-                technology. We craft emotional <br />
-                experiences aimed at improving <br />
-                results. <br />
-              </p>
+  We are a multidisciplinary creative studio at the intersection of art,
+  design and technology. We craft emotional experiences aimed at improving
+  results.
+</p>
               <p>
-                Founded in 2012, Dogstudio has worked <br />
-                with leading brands and agencies <br />
-                worldwide, creating award-winning <br />
-                digital experiences across a variety of <br />
+                Founded in 2012, Dogstudio has worked 
+                with leading brands and agencies 
+                worldwide, creating award-winning 
+                digital experiences across a variety of 
                 platforms and industries.
               </p>
             </div>
